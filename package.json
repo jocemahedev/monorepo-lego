@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-lego",
+  "version": "1.0.0",
+  "description": "monorepo lego",
+  "main": "index.js",
+  "private":"true",
+  "license": "MIT",
+  "workspaces": {
+    "packages": [
+        "packages/*"
+    ]
+}
+}
